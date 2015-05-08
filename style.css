@@ -1,0 +1,83 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  color: #222;
+}
+
+.masthead-intro {
+  text-align: center;
+  font-family: "Gentium Book Basic", "Georgia", serif;
+  font-size: 2em;
+  color: white;
+  padding: 0.1em;
+}
+
+.masthead-heading {
+  text-align: center;
+  color: white;
+  padding: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.masthead, .mastfooter {
+  background-image: url("http://i.imgur.com/96p6fTD.jpg");
+  padding: 6em 0;
+  background-repeat: repeat;
+  border-top: solid 1em #000;
+}
+
+.intro, .where, .more{
+  margin: 2em auto 0 auto;
+  max-width: 38em;
+}
+
+.mastfooter-intro {
+  color: white;
+  text-align: center;
+  padding: 0.1em;
+}
+
+.mastfooter-links {
+  text-align: center;
+}
+
+.mastfooter-links > li{
+  display: inline-block;
+  padding: 0 0.5em 0 0.5em;
+}
+
+.mastfooter-links a {
+  color: #fff;
+}
+
+.mastfooter-links a:hover {
+  color: blue;
+}
+
+.intro > p, .where > p, .more > p, .mastfooter-intro > p {
+  font-weight: 300px;
+  letter-spacing: 0.05em;
+}
+
+.more h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 550px) {
+  .masthead-heading {
+    font-size: 3em;
+  }
+  .masthead {
+    padding: 3em 0;
+  }
+  .intro, .where, .more {
+    margin: 2em auto 0 auto;
+    max-width: 24em;
+  }
+}
